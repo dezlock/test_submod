@@ -3,7 +3,7 @@ init -990 python:
         author="A",
         name="Test",
         description="Solo Test",
-        version="1.0"
+        version="1.0.1"
     )
 
 # Register the updater
@@ -31,7 +31,12 @@ init 5 python:
 
 label monika_reload_custom:
     m 1hub "Alright!"
-    play sound "submods/coin_flip_sfx.wav"
+    play sound "submods/coin_flip_sfx.ogg"
     pause 1.0
+    m "Dialogo Cambiado"
+    m "JAJAJJAJJA"
     m 1hub "Done!"
+    return
+
+label unlabelxd:
     return
