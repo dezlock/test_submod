@@ -3,7 +3,7 @@ init -990 python:
         author="A",
         name="Test",
         description="Solo Test",
-        version="1.0.1"
+        version="1.1"
     )
 
 # Register the updater
